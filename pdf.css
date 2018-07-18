@@ -1,0 +1,107 @@
+/*
++--------------------------------------------------------------------------
+|	Web-based Bookstore Management for Wisdom Bookshop 
+|	File: 		pdf.css
+|	Content:	style definitions for pdf files
++--------------------------------------------------------------------------
+*/
+.page-heading
+{
+    text-align: left;
+    border-bottom: thin solid #180b5f;
+    margin-bottom: 10px;
+}
+.page-heading table
+{
+    font-family: calibri;
+    color: #180b5f;
+}
+.page-heading-title{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.page-heading-subtitle{
+    font-size: 11pt;
+}
+.report-title{
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+table.data{
+    width:100%;
+    border-collapse:collapse;
+}
+td.data-heading{
+    font-weight:bold;
+    font-size: 1.1em;
+    height:30px;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+}
+td.currency{
+    width:20%;
+    text-align:right;
+    padding-right:10px;
+}
+td.currency-mid{
+    width:12%;
+    text-align:right;
+    padding-right:10px;
+}
+td.currency-sm{
+    width:10%;
+    text-align:right;
+    /*padding-right:10px;*/
+}
+.data-subtitle{ 
+    padding-top: 10px; 
+    font-weight: bold;
+}
+.data-row{ 
+    height: 25px; 
+}
+td.sub-total{
+    height: 30px;
+    font-weight: bold;
+    border-top: thin solid #8c8c8c;
+}
+td.grand-total{
+    height: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td.grand-total-mid{
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.col-heading{
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align:center;
+}
+.bold-row td{
+    font-weight: bold;
+}
+.padding-top{
+    padding-top: 10px;
+}
+.border-top{
+    border-top:thin solid black;
+}
+.spacer-10{
+    padding-right:10px;
+}
+
+/*end of file*/

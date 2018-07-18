@@ -1,0 +1,147 @@
+/*
++--------------------------------------------------------------------------
+|	Web-based Bookstore Management for Wisdom Bookshop 
+|	File: 		Application.css
+|	Content:	Application-wide style definitions
++--------------------------------------------------------------------------
+*/
+
+/* Styles for main Layouts */
+.wbbm-application-main{
+    min-height:500px;
+    border-left:thin solid #E5E5E5;
+    border-right:thin solid #E5E5E5;
+    background-color:white;
+    margin-top:90px;
+}
+.wbbm-col-no-left-padding{
+    padding-left: 0px;
+}
+.wbbm-col-no-right-padding{
+    padding-right: 0px;
+}
+.navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+}
+.main-left{
+    background-color:#E5E5E5;
+    min-height:inherit;
+}
+.wbbm-application-footer{
+    height: 40px;
+    background-color:#2B2B69;
+    color: #FFF;
+    font-size:0.7em;
+    text-align:center;
+    padding-top:15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* main navigation bar */
+.navbar{
+    border-radius:0px;
+    margin-bottom:0px;
+}
+#btn1{
+    color:white;
+    border: thin solid white;
+}
+
+/* search well*/
+#lst_key{
+    min-width:200px;
+}
+#txt_value{
+    width:230px;
+}
+#search_error{
+	width:230px;
+	margin-bottom:5px;
+}
+#search_error_text{
+    margin-bottom:5px;
+}
+.error-block{
+    color:#A94442;
+}
+
+/* Styles for forms */
+.form-data-required{
+    color:red; 
+    vertical-align:sup;
+    font-weight:bold;
+}
+
+/*styles for modal delete dialog box*/
+.wbbm-modal-delete .modal-header,
+.wbbm-modal-info .modal-header,
+.wbbm-modal-confirm .modal-header,
+.wbbm-modal-warning .modal-header
+{
+    color:white;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+.wbbm-modal-delete .modal-header
+{
+    background-color:#D9534F;
+}
+
+/*styles for modal info popup box*/
+.wbbm-modal-info .modal-header{
+    background-color:#5bc0de;
+}
+
+/*styles for modal confirmation popup box*/
+.wbbm-modal-confirm .modal-header{
+    background-color:#5CB85C;
+}
+/*styles for modal warning popup box*/
+.wbbm-modal-warning .modal-header{
+    background-color:#F0AD4E;
+}
+
+/*styles for data grid*/
+.space-left-30{
+    padding-left:30px !important;
+}
+
+.text-summary{
+    font-weight:bold;
+    font-size:1.1em !important;
+}
+
+/*span style*/
+span.text-danger{
+    color:#A94442;
+}
+
+/*style for text area heights*/
+textarea.wbbm-height-sm{
+    height:75px;
+}
+textarea.wbbm-height-mid{
+    height:110px;
+}
+textarea.wbbm-height-lg{
+    height:175px;
+}
+textarea.wbbm-height-xlg{
+    height:225px;
+}
+a.wbbm-text-link:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.wbbm-alert-autohide{
+    text-align: center;
+}
+.wbbm-alert-autohide:hover{
+    cursor: pointer;
+}
+
+/* end of file*/
